@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-messaging.js"></script>
+
+  <title>MUHAMMAD RAIKHAN AL FATTAH</title>
+
+  <meta name="theme-color" content="#0000FF">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="/21195021.jpg">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Rayhan</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="/assets/images/cv.pdf" class="btn btn-primary">Download CV</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/profil2.png" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">12</p>
+
+              <p class="elem-text">Years of Success</p>
+            </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">800+</p>
+
+              <p class="elem-text">Projects Completed</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+
+            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from New York"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>MUHAMMAD RAIKHAN AL FATTAH</strong> I was born in Tegal on March 28 2003
+            </h2>
+
+            <p class="hero-text">
+              I live in the new Palem Asry housing block B 13 Trayeman Slawi
+            </p>
+
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+              <a href="#about" class="btn">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/ahli.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="logo-angular"></ion-icon>
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Mahasiswa</p>
+
+            <h2 class="h2 section-title">I am a student at STMIK Tegal majoring in Informatics Engineering. </h2>
+
+            <p class="section-text">
+              I have interest and skills in technology and enjoy learning new things. 
+            
+              
+            </p>
+
+            <p class="section-text">
+              I hope to gain valuable experience and knowledge in this field and contribute to future technological development
+             
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+            Through the experience and expertise I have developed, this portfolio reflects my development as a professional
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="https://youtu.be/xF1iQS-QKWA " class="portfolio-card" style="background-image: url('./assets/images/folio-1.PNG')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Youtube</p>
+
+                  <h3 class="h3 card-title">Push Notifikasi Menggunakan Firebase Cloud Messaging</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://raikhanaf.000webhostapp.com/index.php" class="portfolio-card" style="background-image: url('./assets/images/folio-2.png')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Project Kategori akun</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://drive.google.com/drive/folders/1ECUlzo5UH1GHDTemLzAjtYPVdyxRRMQp?usp=drive_link" class="portfolio-card" style="background-image: url('./assets/images/folio-3.png')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Sertifikat</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/ryhn21195018/21195018-rayhan-REG-PAGI-TI-5-UTS-PWA/tree/main/2119501821195018-rayhan-REG-PAGI-TI-5-UTS-PWA" class="portfolio-card" style="background-image: url('./assets/images/folio-4.png')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Project github</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+            I continue to improve and diversify my abilities to be better prepared to face challenges in the world of technology.
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">CSS</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">React</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">MongoDB</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">PHP</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <form id="komentar-form" action="" class="contact-form">
+
+                <input type="text" id="nama" name="name" placeholder="Name" required class="contact-input">
+
+                <input type="email" id="email" name="email" placeholder="Email" required class="contact-input">
+
+                <textarea name="message" id="message" placeholder="Message" required class="contact-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      perumahan palem asry baru Blok B 13 Trayeman-Slawi
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:han28af@gmail.com" class="contact-item-link">han28af@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+62 85649230725" class="contact-item-link">+62 85649230725</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Latest News</p>
+
+          <h2 class="h2 section-title">Checkout My Recent Blogs</h2>
+
+          <p class="section-text">
+            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog2.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="https://www.instagram.com/p/C1lkqVfJmO2A-1BjqqpXCtXDMqAmdFi1Z_Zbtw0/?igsh=eXZ2OTRpaWJldHR1 " class="card-tag">instagram</a>
+
+                <h3 class="card-title">
+                  <a href="https://www.instagram.com/p/C1lkqVfJmO2A-1BjqqpXCtXDMqAmdFi1Z_Zbtw0/?igsh=eXZ2OTRpaWJldHR1 ">Jim Morisson Says when the musics over turn off the light</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog3.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="https://fb.watch/pjnskgkyJn/?mibextid=Nif5oz" class="card-tag">facebook</a>
+
+                <h3 class="card-title">
+                  <a href="https://fb.watch/pjnskgkyJn/?mibextid=Nif5oz">Jim Morisson Says when the musics over turn off the light</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog1.PNG" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="https://github.com/ryhn21195018" class="card-tag">github</a>
+
+                <h3 class="card-title">
+                  <a href="https://github.com/ryhn21195018">Jim Morisson Says when the musics over turn off the light</a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+          <br />
+      <div id="token"></div>
+      <div id="msg"></div>
+      <div id="notis"></div>
+      <div id="err"></div>
+      <button id="tombol">Allo Push Notifications</button>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2022 <a href="#" class="copyright-link">rayhan28af</a>. All Rights Reseverd
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script>
+    window.onload = () => {
+        'use strict';
+      
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker
+                   .register('./sw.js');
+        }
+      }
+      </script>
+      <script>
+        MsgElem = document.getElementById('msg');
+        TokenElem = document.getElementById('token');
+        NotisElem = document.getElementById('notis');
+        ErrElem = document.getElementById('err');
+        const tombol = document.getElementById('tombol');
+        // Initialize Firebase
+        // TODO: Replace with your project's customized code snippet
+        var config = {
+          apiKey: "AIzaSyCOrj0MiGwNjTn1wiGlyqx9LV-znCmi_mI",
+          authDomain: "notifikasiv1.firebaseapp.com",
+          projectId: "notifikasiv1",
+          storageBucket: "notifikasiv1.appspot.com",
+          messagingSenderId: "395001630450",
+          appId: "1:395001630450:web:4f55d08527e6dc83844a6b",
+          measurementId: "G-MYZ0PDQ2GR"
+        };
+  
+        firebase.initializeApp(config);
+        const messaging = firebase.messaging();
+        
+        tombol.onclick = function() {
+  
+        messaging
+          .requestPermission()
+          .then(() => {
+            // MsgElem.innerHTML = 'Notification permission granted.';
+            console.log('Notification permission granted.');
+  
+            // get the token in the form of promise
+            return messaging.getToken();
+          })
+          .then(token => {
+            // TokenElem.innerHTML = 'token is : ' + token;
+            console.log(token);
+          })
+          .catch(err => {
+            ErrElem.innerHTML = ErrElem.innerHTML + '; ' + err;
+            console.log('Unable to get permission to notify.', err);
+          });
+        }
+  
+  
+        messaging.onMessage(function(payload) {
+          console.log('Message received. ', payload);
+          NotisElem.innerHTML = NotisElem.innerHTML + JSON.stringify(payload);
+          //kenng - foreground notifications
+          const { title, ...options } = payload.notification;
+          navigator.serviceWorker.ready.then(registration => {
+            registration.showNotification(title, options);
+          });
+        });
+      </script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="indexdb.js"></script>
+
+</body>
+
+</html>
